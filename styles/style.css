@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+
+.playwrite-dk-loopet-italic {
+  font-family: "Playwrite DK Loopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+/* Sharing code style */
+p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.primary-btn{
+    color:white;
+    background-color:rgb(224, 101, 82) ;
+    border:rgb(224, 101, 82) solid 1px;
+    border-radius: 20px;
+    text-align: center;
+    height: 25px;
+    width: auto;
+   
+
+}
+
+h2, h1, h3 {
+    color:white;
+}
+
+/* Header section style */
+.header-section{
+    position: cover;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+}
+.title-nav{
+    display:flex;
+    justify-content: space-between;
+   
+    top:57px;
+    left:190px;
+}
+
+.title-header{
+    color: rgb(230,83,60);
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.title-nav-option li{
+    
+    list-style: none;
+    
+}
+.title-nav-option{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 2rem;
+
+}
+.title-nav-bar{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 2rem;
+
+
+}
+.home-btn{
+    
+    width:60px;
+    height:26px;
+    
+}
+
+.title-nav-option{
+    color:white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    margin-left: 200px;
+}
+
+
+.header-container-text h1{
+    font-size: 78px;
+    font-weight: 900;
+    color:white;
+    text-align: left;
+
+}
+
+.download-btn{
+    color:white;
+    background-color: gray;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    height: 25px;
+    width:auto;
+
+
+
+}
+
+.header-container-image img{
+    position:absolute;
+    width:330px;
+    height: 500px;
+    top: 75px;
+    left:877px;
+}
+
+
+.free-workout-videos, .video-tutorial{
+    border:1px solid gray;
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.54);
+    width:150px;
+    height: 80px;
+    text-align: left;
+    padding:10px;
+    backdrop-filter: blur(20px);
+}
+.free-workout-videos{
+    position: relative;
+    transform: translate(170% , 5%);
+}
+
+.video-tutorial{
+    display:grid;
+    grid-template-columns: .5fr 1.5fr;
+    gap: 1rem;
+    position:relative;
+    transform: translate(-15%,120%);
+
+    
+
+}
+
+.blank-color{
+    background-color:rgb(230,83,60) ;
+    
+    align-items: center;
+    height: 40px;
+    width:40px;
+    border-radius: 50px;
+    margin-top: 30px;
+
+}
+
