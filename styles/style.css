@@ -418,17 +418,20 @@ h3 {
  /* BMI Calculator section style */
 
  .bmi-calculator{
-    border:2px solid red;
     margin-top: 88px;
  }
 
+
  .bmi-clctr-text{
-    border:1px solid green;
     width:671px;
     height:120px;
     margin-left:314.5px;
  }
-
+.bmi-clctr-text>h1{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 10%;
+}
  .bmi-clctr-content {
     margin-top: 88px;
     background-color: rgb(34, 34, 34);
@@ -514,4 +517,141 @@ h3 {
     background: rgb(230, 83, 60);
     margin-top: 20px;
  }
+
+
+
+ /* Meet Our Team Section style */
+
+ .meet-our-team-container{
+    width:1060px;
+    height:782px;
+    margin-top: 88px;
+    margin-left: 130px;
+ }
+ .meet-our-team-text>h1{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 15%;
+ }
+
+
+ .meet-our-team-text{
+    width:671px;
+    height:120px;
+    margin-left: 190px;
+    text-align: center;
+ }
+
+ .meet-our-team-img-container{
+    width:1060px;
+    height:600px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: repeat(3,354px);
+    grid-template-rows: repeat(2,280px);
+    justify-items: center;
+    align-content: space-around;
+    
+ }
+
+ .meet-our-team-img-container>div>img{
+    position:relative;
+    width:326.67px;
+    height:272px;
+    /* align-items: center; */
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2);
+    opacity:70%;
+/* margin:20px 0px; */
+
+ }
+
+ .meet-our-team-img-container>div>div{
+    position:relative;
+    transform: translateY(-160%) translateX(10%);
+    width:230px;
+    height:72px;
+}
+
+ .meet-our-team-img-container>div>div>h3,
+ .meet-our-team-img-container>div>div>p{
+    text-align: left;
+    line-height: 50%;
+ }
+
+
+ /* Footer Section style */
+ .footer-section{
+    width:1340px;
+    height:489px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+
+
+ }
+
+
+ .footer-section-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position:relative;
+    top:66px;
+    
+ }
+
+
+.footer-logo-text{
+    border:1px solid red;
+    width:443px;
+    height:176px;
+
+}
+
+.footer-logo-text>h1{
+    color: rgb(230,83,60);
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 15%;
+}
+
+.get-started-1,
+.get-started-2{
+    border:1px solid green;
+    width:181px;
+    height:249px;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+
+
+.get-started-1>a,
+.get-started-2>a{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgba(255, 255, 255,0.5);
+    text-decoration: none;
+}
+
+
+
+.get-started-last-part{
+    position:relative;
+    top:150px;
+    text-align: center;
+}
+
+.get-started-last-part>hr{
+  width:1059px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
 
