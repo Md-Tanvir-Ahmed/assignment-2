@@ -1,0 +1,695 @@
+@media screen and (max-width:430px) {
+    body{
+       
+        width:308px;
+       
+
+    }
+
+    /* Header section style */
+    .title-nav-option>a{ 
+        display: none;
+    }
+
+    .title-nav-bar{
+        border:none;
+    }
+
+
+    .title-nav-bar>i{
+        display:block;
+        position:absolute;
+        top: 30%;
+        left:90%;
+        font-size: 15px;
+    }
+
+    .title-header{
+       
+        width: 900px;
+        font-size: 24px;
+        font-weight: 800;
+        
+    }
+
+    .title-nav{
+        left:0;
+        top: 20px;
+        margin-left: 0px;
+        width:300px;
+        height:35px;
+        justify-content:space-between;
+       
+        position:relative;
+    }
+
+    .header-container{
+        display:grid;
+        grid-template-columns: 1fr;
+        width:300px;
+        height: 650px;
+        
+        margin-left:0px;
+        margin-top: 50px;
+    }
+
+    .header-container-text{
+        width:300px;
+        margin-left: 0px;
+    }
+
+    .header-container-text>h1{
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 120%;
+        width: 180px;
+        height:100px;
+       
+    }
+    .header-container-text>p{
+       
+        font-size: 12px;
+        width:300px;
+        height:50px;
+    }
+
+    .playwrite-dk-loopet-miama{
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    .join-club-btn,
+    .download-btn{
+        width:130px;
+        height:42px;
+        font-size: 12px;
+       
+    }
+
+    /* Header section Image part */
+
+    .header-container-image{
+       
+        width:300px;
+        height: 350px;
+       
+        position: relative;
+    }
+
+   
+    .header-container-image>img{
+        position: relative;
+        top:0px;
+        left:35px;
+        width:250px;
+        height: 350px;
+    }
+
+    .video-tutorial{
+        position:absolute;
+        top:50%;
+
+
+
+        
+        /* transform: translate(10%,-300px); */
+        width:100px;
+        height:55px;
+        box-sizing: border-box;
+        border: 0.76px solid rgba(255, 255, 255, 0.1);
+        border-radius: 9.07px;
+        backdrop-filter: blur(15.12px);
+        background: rgba(48, 48, 48, 0.54);
+        line-height: 60%;
+        padding:0;
+    
+    }
+
+    .video-tutorial h2{
+        font-size:18px;
+        font-weight: 500;
+        
+    }
+
+    .video-tutorial p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .blank-color{
+        position:relative;
+        transform: translate(0,-50%);
+        width:20px;
+        height:20px;
+       
+    }
+    .free-workout-videos h1{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .free-workout-videos p{
+        font-size: 10px;
+        font-weight: 400;
+
+    }
+
+    .free-workout-videos{
+        position: absolute;
+        top:20%;
+        left: 0;
+        /* transform: translate(128%,-570%); */
+        width:90px;
+        height:55px;
+        box-sizing: border-box;
+        border: 0.76px solid rgba(255, 255, 255, 0.1);
+        border-radius: 9.07px;
+        backdrop-filter: blur(15.12px);
+        background: rgba(48, 48, 48, 0.54);
+        line-height: 40%;
+        padding:0px;
+    }
+
+    /* Change Your Habbit section style */
+
+    .change-your-habit-container{
+        position:relative;
+        
+        width:305px;
+        height:1000px;
+        margin-left: 0px;
+        padding:0px;
+       
+    }
+
+    .change-your-habit-text{
+                
+        width:250px;
+        height:100px;
+        line-height: 80%;
+        margin-left: 8%;
+        
+
+
+
+    }
+
+    .change-your-habit-text>h1{
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 100%;
+    }
+
+    .change-your-habit-text>p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .change-your-habit-image{
+        flex-direction: column;
+        line-height: 80%;
+        margin-top: 10px;
+       
+    }
+
+    .change-image>img{
+        margin-left:25px;
+        width:150px;
+        height:150px;
+    }
+
+    .change-image h3{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .change-image p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    /* Run Easily section style */
+
+    .run-easily{
+        position:relative;
+       
+       
+        width:290px;
+        height:460px;
+        margin-top: 0px;
+        margin-left: 8px;
+
+        flex-direction: column;
+        align-content:space-evenly;
+        justify-content: space-around;
+        gap:0;
+    }
+
+    .run-easily-text{
+        
+        width:287px;
+        height:150px;
+       
+        margin:0;
+    
+    }
+
+    .run-easily-text>h1{
+       
+        width:287px;
+        height:50px;
+        font-size: 24px;
+        font-weight: 800;
+        
+    }
+
+    .run-easily-text>p{
+
+        width:287px;
+        height:96px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .run-btn{
+        font-size: 15px;
+        font-weight: 400;
+        width:250px;
+        height:42px;
+        position:absolute;
+        top:35%;
+        left:8%;
+    }
+    .run-easily-img{
+       
+        width:270px;
+        height:170px;
+        
+        margin-top: 10px;
+        
+    }
+    .run-easily-img>img{
+        width:100%;
+        height:100%;
+        
+        margin:0px;
+    }
+
+ 
+    /*Training and exercise section */
+
+    .training-and-exercise-container{
+   
+        position: relative;
+    
+        margin-left: 0px;
+        
+        width:308px;
+        height: auto;
+
+        
+    }
+
+    .training-and-exercise-text{
+       
+        width:308px;
+        height:100px;
+        line-height: 120%;
+
+    }
+
+    .training-and-exercise-text>h1{
+        font-size: 24px;
+        font-weight: 800;
+    }
+    .training-and-exercise-text>p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .training-and-exercise-image-container{
+      
+    }
+
+    .image-3,.image-6{
+        display:none;
+        background: none;
+    }
+
+    .training-and-exercise-image-container-row-1{
+        grid-template-columns: 1.2fr 0.8fr;
+        width:305px;
+        height: 150px;
+    }
+   
+    .training-and-exercise-image-container-row-2{
+        grid-template-columns: 0.8fr 1.2fr;
+        width:305px;
+        height:150px;
+
+    }
+
+    .image-1,.image-5,
+    .image-1 img,.image-5 img{
+        width:100%;
+        height:100%;
+    }
+
+    .image-2,.image-4,
+    .image-2>img,.image-4>img{
+        width:100%;
+        height:100%;
+    }
+
+   
+
+    .image-1>h1,.image-2>h1,
+    .image-4>h1,.image-5>h1{
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    /* BMI calculator section */
+
+    .bmi-calculator{
+       
+        width:308px;
+        height:700px;
+        margin-left:0px;
+        margin-top: 10px;
+
+
+    }
+
+    .bmi-clctr-text{
+       
+        width:308px;
+        height:auto;
+        align-items:start;
+        margin-left: 0px;
+
+    }
+    .bmi-clctr-text>h1{
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    .bmi-clctr-text>p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .bmi-clctr-content{
+       
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+        margin-top: 10px;
+        width:308px;
+        height:700px;
+        position:relative;
+        
+    }
+
+    .bmi-clctr-table{
+        
+        margin-top: 5px;
+        width:180px;
+        height:50px;
+         position: absolute;
+         top:5px; 
+       
+        left:10px 
+    }
+
+    .bmi-clctr-table table{
+        width:250px;
+        height:40px;
+        
+    }
+    .bmi-clctr-table>h1{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .bmi-clctr-table>th{
+        font-size: 10px;
+        font-weight: 500;
+        padding:0px;
+    }
+    .bmi-clctr-table>td{
+        font-size: 10px;
+        font-weight: 400;
+        padding:0px;
+    }
+
+    
+
+   
+
+   
+
+    .calculate-btn{
+        font-size: 18px;
+        font-weight: 400;
+        width:160px;
+        height:42px;
+    }
+
+    
+   
+
+ 
+
+  
+
+    .bmi-clctr-text-info{
+        
+        width:300px;
+        margin-top: 400px;
+        
+    }
+
+    .bmi-clctr-text-info h1{
+        font-size: 24px;
+        font-weight: 500;
+
+    }
+
+    .bmi-clctr-text-info p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .bmi-clctr-option{
+        width:300px;
+        height:200px;
+       
+      
+    }
+
+    .bmi-clctr-option form{
+      
+        display: grid;
+        grid-template-columns:150px 150px;
+        gap:5px;
+        width:300px;
+       
+
+    }
+
+    form input{
+        width:130px;
+        height:42px;
+        font-size: 12px;
+        font-weight: 500;
+       
+    }
+
+    form{
+
+    }
+     #height,#weight,#age{
+        
+        height:20px;
+        padding:5px;
+        font-size: 12px;
+        font-weight: 500;
+        border-radius: 12px;
+    }
+    #weight{
+        margin-right: 50px;
+    }
+
+
+    #sex{
+        width:142px;
+        height:30px;
+        padding:5px;
+        font-size: 12px;
+        font-weight: 500;
+
+    }
+
+
+
+    #activity{
+        width:300px;
+    height:38px;
+    font-size: 12px;
+        font-weight: 500;
+
+    }
+
+
+
+    /* Our trainer section */
+
+    .meet-our-team-container{
+        position: relative;
+       
+        width:308px;
+        height:auto;
+        top:85%;
+        left:-130px;
+
+    }
+
+    .meet-our-team-text{
+        width:309px;
+        height: 70px;
+        
+         position: absolute;
+         top:25px;
+         left:-190px;
+       
+    }
+
+    .meet-our-team-text>h1{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .meet-our-team-text>p{
+        font-size: 12px;
+        font-weight: 400;
+
+    }
+
+    .meet-our-team-img-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+        justify-content: center;
+        align-items: center;
+        width:308px;
+        height:1183px;
+      
+         position: absolute;
+         top:60px;
+         
+      
+    }
+
+    .meet-our-team-img-container>div{
+     
+        width:285px;
+        height:272px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .meet-our-team-img-container>div>div{
+      
+        width:130px;
+    }
+
+
+    .meet-our-team-img-container>div>img{
+        width:280px;
+        height:272px;
+        position: relative;
+    }
+
+    .vanish{
+        display:none;
+    } 
+
+
+
+    /* footer section */
+
+    .footer-section{
+       
+        width:308px;
+        height:600px;
+        position: absolute;
+        top:5000px;
+        
+    }
+
+    .footer-section-container{
+        flex-direction: column;
+    }
+
+    .footer-logo-text{
+        width:290px;
+        height:90px;
+      
+        line-height: 80%;
+        margin-left: 5px;
+    }
+    .footer-logo-text>h1{
+        font-size: 24px;
+        font-weight: 800;
+
+    }
+
+
+    .footer-logo-text>p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .get-started-1{
+       
+        width:120px;
+        height:150px;
+        position: relative;
+        left:-67px;
+    }
+    .get-started-2{
+       
+        width:120px;
+        height:150px;
+        position: relative;
+        left:-67px;
+    }
+
+    .get-started-1>h3,
+    .get-started-2>h3{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .get-started-1>a,
+    .get-started-2>a{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    
+      
+    .get-started-last-part>hr{
+        width:280px;
+    }
+
+    .get-started-last-part>p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+
+
+
+
+
+    
+}

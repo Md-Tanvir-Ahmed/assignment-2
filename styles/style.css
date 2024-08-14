@@ -12,7 +12,7 @@
   font-family: 'miama', sans-serif;
   font-optical-sizing: auto;
   font-size: 100px;
-  font-weight: 800;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -30,7 +30,7 @@
 body{
     background-color: black;
     background-size: cover;
-    width:1337px;
+    width:100%;
     margin:0;
     padding:0;
 }
@@ -62,7 +62,7 @@ h2, h1, h3 {
 .header-section {
     background-position: cover;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    width: 1330px;
+    width:100%;
     height: 715px;
     margin:0;
     padding:0;
@@ -87,6 +87,11 @@ h2, h1, h3 {
     color:white;
     text-decoration: none; 
     
+}
+
+.title-nav-bar>i{
+    display:none;
+    color:white;
 }
 .title-nav-option{
     color:white;
@@ -147,6 +152,7 @@ h2, h1, h3 {
 .join-club-btn{
     width:224px;
     height:54px;
+    border-radius: 42px;
 }
 
 .download-btn{
@@ -210,6 +216,7 @@ h2, h1, h3 {
 /* Change Your Habit style */
 
 .change-your-habit-container{
+    
     background-color: black;
     background-size: cover;
     height: 452px;
@@ -294,7 +301,7 @@ h3 {
     width:1060px;
     height:581px;
     margin-top: 100px;
-    margin-left: 140px;
+    margin-left: 80px;
 
 }
 
@@ -429,8 +436,8 @@ h3 {
 .bmi-clctr-content {
     margin-top: 70px;
     background-color: rgb(34, 34, 34);
-    background-size: cover;
-    width: 100%;
+    /* background-size: cover; */
+    width:100%;
     height:487px;
     display: flex;
     justify-content: space-around;
@@ -470,7 +477,7 @@ h3 {
     margin-top: 10px;
  }
 
- .bmi-clctr-form>form{
+ .bmi-clctr-form>div>form{
     display:grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,1fr);
@@ -478,7 +485,7 @@ h3 {
     gap:12px;
  }
 
- .bmi-clctr-form>form>input,
+ .bmi-clctr-form>.bmi-clctr-option>form>input,
  #sex,
  #activity{
     border-radius: 8px;
@@ -521,7 +528,7 @@ h3 {
     width:1060px;
     height:782px;
     margin-top: 88px;
-    margin-left: 130px;
+    margin-left: 80px;
  }
  .meet-our-team-text>h1{
     font-size: 48px;

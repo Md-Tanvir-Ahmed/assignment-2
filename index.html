@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-02</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <script src="https://kit.fontawesome.com/0ba7586a43.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header-section">
         <section>
             <div class="title-nav">
-                <div class="title-header">Fitness Club</div>
+                <div class="title-header">Fitness <span>Club</span></div>
                 <div class="title-nav-bar">
                    <nav class="title-nav-option">
                        <a href="" class="primary-btn home-btn">Home</a>
@@ -18,7 +20,9 @@
                        <a href="">Contact</a>
                        <a href="">About</a>
                        
+                       
                    </nav>
+                   <i class="fa-solid fa-bars"></i>
                 </div>
 
             </div>
@@ -94,7 +98,7 @@
                     <p>We believe fitness should be accessible to everyone</p>
                 </div>
             </div>
-        </section>
+        </section> 
         <section class="run-easily">
             <div class="run-easily-text">
                 <h1>Run an Extra Mile Easily</h1>
@@ -181,23 +185,27 @@
                         <h1>Calculate Your BMI</h1>
                         <P>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </P>
                     </div>
-                    
-                    <form action="">
-                        <input type="text" placeholder="Height/cm">
-                        <input type="text" placeholder="Weight/kg">
-                        <input type="text" placeholder="Age">
-                        <select name="Sex" id="sex" placeholder="Sex">
-                            <option value="">Sex</option>
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                            
-                        </select>
-                        <select name="" id="activity">
-                            <option value="">Select an activity factor</option>
-                        </select>
-                        <button class="calculate-btn">Calculate</button>
+                    <div class="bmi-clctr-option">
+                        <form action="">
+                            <input type="text" id="height" placeholder="Height/cm">
+                            <input type="text" id="weight" placeholder="Weight/kg">
+                            <input type="text" id="age" placeholder="Age">
+                            <select name="Sex" id="sex" placeholder="Sex">
+                                <option value="">Sex</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                
+                            </select>
+                            <select name="" id="activity">
+                                <option value="">Select an activity factor</option>
+                            </select>
+                            <button class="calculate-btn">Calculate</button>
+    
+                        </form>
 
-                    </form>
+                    </div>
+                    
+                    
 
                 </div>
 
@@ -236,7 +244,7 @@
                     </div>
                     
                 </div>
-                <div>
+                <div class="vanish" >
                     <img src="./images/trainer4.png" alt="">
                     <div>
                         <h3>Dewanne Russel</h3>
@@ -245,7 +253,7 @@
                     </div>
                     
                 </div>
-                <div>
+                <div class="vanish" >
                     <img src="./images/trainer5.png" alt="">
                     <div>
                         <h3>Cody Fisher</h3>
